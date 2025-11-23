@@ -5,7 +5,7 @@ import { togglePublish } from "../services/api";
 import Navbar from "../components/Navbar"; 
 import "../styles/Dashboard.css";
 
-const socket = io("http://localhost:4000"); 
+const socket = io("https://euphotic-labs.onrender.com"); 
 
 const Dashboard = () => {
   const [dishes, setDishes] = useState([]);
