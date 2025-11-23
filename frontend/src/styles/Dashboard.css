@@ -1,0 +1,16 @@
+.dashboard-container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.dish-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
